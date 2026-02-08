@@ -1,11 +1,15 @@
-.body {
+body {
     display: flex;
     flex-direction: column;
+    padding: 0 180px;
+    font-family: 'roboto';
 }
 
 .header {
     display: flex;
     align-items: center;
+    background-color: #1F2937;
+
 }
 
 .logo {
