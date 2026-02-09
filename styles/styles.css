@@ -80,7 +80,7 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0 72px;
+    padding: 20px 72px;
 }
 
 .cards {
@@ -92,4 +92,25 @@ a {
     border: #3882F6 solid 2px;
     width: 175px;
     height: 120px;
+}
+
+/* Quote section */
+
+.quote {
+    background-color: #e5e7eb; 
+    padding: 20px 200px; 
+}
+
+.quote .quote-text {
+    color: #1F2937 ;
+    font-size: 36px;
+    font-weight: 300;
+    padding: 0 72px;
+}
+
+.quote > p {
+    color: #000;
+    font-size: 16px;
+    font-weight: 900;
+    padding-left: 220px;
 }
