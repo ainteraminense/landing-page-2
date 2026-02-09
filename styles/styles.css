@@ -13,7 +13,7 @@ body {
 }
 
 .header,
-.main {
+.main{
     display: flex;
     padding: 16px;
 }
@@ -24,7 +24,8 @@ button {
     margin: 8px;
 }
 
-button {
+button,
+.call-to-action button {
     padding: 8px 32px;
     background-color: #3882F6;
     color: #FFF;
@@ -113,4 +114,30 @@ a {
     font-size: 16px;
     font-weight: 900;
     padding-left: 220px;
+}
+
+.call-to-action {
+    background-color: #3882F6;
+    color: #FFF;
+    display: flex;
+    align-items: center;
+    margin: 16px;
+    padding: 20px 272px;
+}
+
+.call-to-action p {
+    margin-left: 0;
+    margin-top: -20px;
+    font-size: 16px;
+}
+
+.call-to-action button {
+    flex-grow: 0;
+    height: 50px;
+}
+
+.footer p{
+    text-align: center;
+    padding: 16px;
+    font-size: 16px;
 }
